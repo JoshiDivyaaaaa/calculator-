@@ -1,0 +1,95 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	margin:0;
+	padding: 0;
+	background: linear-gradient(to left,blue,rebeccapurple,deeppink);
+
+}
+.calcu{
+	width: 500px;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	position: absolute;
+	top: 50%;
+	left: 80%;
+	transform: translate(-50%,-50%);
+	transition: 0.25px;
+	/*background-color: yellowgreen;*/
+	text-align: center;
+}
+#display{
+ 	border: none;
+ 	background: peachpuff;
+ 	border-radius: 20px;
+ 	width: 250;
+ 	font-size: 30px;
+ 	font-family: bold;
+ 	font-weight: 250px;
+ 	height: 50px;
+ 	margin: auto;
+ 	border: 3px solid black;
+ 	color: black;
+}
+.btndesign{
+	
+	width: 50px;
+	height: 50px;
+	padding-top: 1px;
+	font-size: 20px;
+	border-radius: 10px;
+	font-weight: 200px;
+	margin: 2;
+	font-family: sans-serif;
+
+
+}
+.btndesign:hover{
+	background: palegreen;
+}
+
+.operatorDesign{
+
+	width: 50px;
+	height: 50px;
+	padding-top: 1px;
+	font-size: 20px;
+	border-radius: 10px;
+	font-weight: 200px;
+	margin: 2;
+	font-family: sans-serif;
+	transition: 0.25px;
+	cursor: pointer;
+}
+.operatorDesign:hover{
+	background: palegreen;
+
+}
+#zero{
+	width: 50px;
+	height: 50px;
+	padding-top: 1px;
+	font-size: 20px;
+	border-radius: 10px;
+	font-weight: 200px;
+	margin: 2;
+	font-family: sans-serif;
+	transition: 0.25px;
+	cursor: pointer;
+}
+#zero:hover{
+	background: palegreen;
+}
+h1{
+	text-align: center;
+	font-family: bold;
+	font-size: 60px;
+	padding-top: 250px;
+}
+
+
+/*         <input type="radio" class="form-control" name="gender" placeholder="gender" value=" male"required="" autofocus="" /><label>male</label>
+          <input type="radio" class="form-control" name="gender" placeholder="gender" value=" female"required="" autofocus="" /><label>female</label>
+      </div>*/
